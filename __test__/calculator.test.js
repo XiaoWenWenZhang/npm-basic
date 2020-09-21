@@ -12,4 +12,12 @@ describe('calculator', () => {
 
         expect(result).toEqual(6);
     });
+
+    it('should return X when transform of 10',()=>{
+        const result = transform(10);
+        expect(result).toEqual("X");
+    })
 });
+
+
+
