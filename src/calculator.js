@@ -1,4 +1,4 @@
-import _ from 'romanize';
+import _ from 'lodash';
 
 const sum = (numbers) => {
     return _.sum(numbers);

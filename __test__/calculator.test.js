@@ -1,4 +1,5 @@
 import {plus, sum} from "../src/calculator";
+import {transform} from "../src/romanizer";
 
 describe('calculator', () => {
     it('should return 3 when 1 plus 2', () => {
